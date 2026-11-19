@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Innovate – Tech Articles</title>
+  <link rel="stylesheet" href="Blog/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h16"/></svg>
+      </button>
+      <a href="index.html" class="logo">INN<span>O</span>VATE</a>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+      <button class="icon-btn search-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Let’s Discover Tech Articles</h1>
+    <div class="tabs" id="tabs" role="tablist"></div>
+
+    <section class="hero" id="hero" aria-label="Top story"></section>
+
+    <section class="block">
+      <h2 class="block-title">Featured</h2>
+      <div class="featured-grid" id="featured"></div>
+    </section>
+
+    <section class="block">
+      <h2 class="block-title">Recent Articles <a href="#recent" class="explore">Explore all</a></h2>
+      <div class="recent-grid" id="recent"></div>
+      <nav class="pagination" id="pagination" aria-label="Pagination"></nav>
+    </section>
+  </main>
+
+  <section class="subscribe">
+    <div class="container subscribe-inner">
+      <p>Stay ahead in tech: Subscribe for exclusive insights!</p>
+      <form id="subscribeForm" novalidate>
+        <input type="email" id="email" placeholder="Enter your email address" aria-label="Email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <p class="form-msg" id="formMsg" role="status"></p>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>Copyright © 2026 <strong>INNOVATE</strong>. All rights reserved.</p>
+        <p class="legal"><a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a> | <a href="#">Contact Us</a></p>
+      </div>
+      <div class="social">Follow Us:
+        <a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="YouTube">▶</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="Blog/js/main.js"></script>
+</body>
+</html>
